@@ -10,12 +10,10 @@ print('# Desafio 11'
 
 alt = float(input('\nDigite a altura (em metros) da parede >>> '))
 lar = float(input('Digite a largura (em metros) da parede >>> '))
-area = alt * lar
-efi = int(2)
-lit = float(area / efi)
+lit = float((alt * lar) / int(2))
 
-print('\nA altura da parede é de {} metros, a largura é de {} metros, a área da parede é de {} metros quadrados.'
-      .format(alt, lar, area))
+print('\nUma parede de {} metros por {} metros de largura, é uma parede de {:.2f} metros quadrados.'
+      .format(alt, lar, (alt * lar)))
 if lit <= 1:
     print('Para pintar essa parede é necessário {:.2f} litro de tinta'.format(lit))
 else:
