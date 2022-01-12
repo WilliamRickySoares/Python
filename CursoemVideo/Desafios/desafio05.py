@@ -6,5 +6,5 @@ print('# Desafio 005 '
 n = int(input('\nDigite um número inteiro: '))
 a = n-1
 s = n+1
-
+# Usar menos variáveis utiliza menos memória, considerar fazer o cálculo dentro do format
 print('\nO digito escolhido foi {}, o seu antecessor é {} e seu sucessor é {}.'.format(n, a, s))
