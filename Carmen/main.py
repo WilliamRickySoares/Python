@@ -29,7 +29,7 @@ def sorteia_cidade():
 
 
 player = input('Agente no teclaro, por favor identifique-se: ')
-print('Bem vindo {}'.format(player) )
+print('Bem vindo {}'.format(player), end='')
 continuar = input('Você foi identificado como agente da agência, deseja iniciar uma nova missão? [S/N]: ')
 
 if continuar == 'N':

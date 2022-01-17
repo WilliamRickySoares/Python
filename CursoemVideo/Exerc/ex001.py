@@ -1,5 +1,5 @@
 # Trbalhando com print
-# O [end=''] permite que o print seguinte fique na mesma linha do print atual
+# O [, end=''] permite que o print seguinte fique na mesma linha do print atual
 # O [\n] insere uma quebra de linha
 
 user = input("Digite seu nome >>> ")
