@@ -5,7 +5,7 @@ import random
 
 todas_cidades = ['SAO', 'MAO', 'SPA', 'FOR', 'VIT', 'ZPT', 'XPTO', 'ZZZ', 'AAA', 'BBB']
 cidades_vistas = []
-inicio = 'Segunda-feira 07:00'
+inicio = 'Segunda-feira 07:000'
 
 
 # sortei cidade
