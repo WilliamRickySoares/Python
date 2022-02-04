@@ -1,12 +1,20 @@
+# Conjunto de dicas para trabalhar com textos. Aula #09
+
 frase = 'Curso em Video Python'
 print(frase)
 print('\nA frase um total de {} caracteres.'.format(len(frase)))
-print('A letra 3 da frase = "{}".'.format(frase[3]))
-print('O trecho do 9 ao 14 = "{}".'.format(frase[9:14]))
-print('O trecho a partir do 15 em diante = "{}".'.format(frase[15:]))
-print('O trecho até o até o 14 = "{}".'.format(frase[:14]))
+print('O caracter 3 da frase = "{}".'.format(frase[3]))
+print('O trecho do caracter 9 ao caracter 14 = "{}".'.format(frase[9:14]))
+print('O trecho a partir do caracter 15 em diante = "{}".'.format(frase[15:]))
+print('O trecho até o até o caracter 14 = "{}".'.format(frase[:14]))
 print('Pegar um trecho e pular de 2 em 2 = "{}"'.format(frase[1:15:2]))
 print('Pegar toda a frase pular de 3 em 3 = "{}"'.format(frase[::3]))
+print('Contar a quantidade de vezes que um caracter aparece. Na frase tem = {} "o".'.format(frase.count('o')))
+print('Tornar a frase maiuscula = "{}"'.format(frase.upper()))
+print('Tornar a frase minuscula = "{}"'.format(frase.lower()))
+print('Localizar a posição do caracter = {}'.format(frase.find('o')))
+print('Substituir na visualização "Python" por "Android" = "{}"'.format(frase.replace('Python', 'Android')))
+print('O trecho "Curso" esta na frase? {}'.format('Curso' in frase))
 
 print('\nBloco de textos\n')
 print('''"Lorem ipsum dolor sit amet, 
@@ -19,6 +27,9 @@ Duis aute irure dolor in reprehenderit in
 voluptate velit esse cillum dolore eu fugiat 
 nulla pariatur. Excepteur sint occaecat cupidatat 
 non proident, sunt in culpa qui officia deserunt 
-mollit anim id est laborum."''')
+mollit anim id est laborum."\n''')
 
-
+print('Procurar depois de colocar tudo em minusculo = {}'.format(frase.lower().find('video')))
+print('Frase separada por cada espaço "{}"'.format(frase.split()))
+print('Depois de fazer o split da frase, ela se torna uma lista. '
+      'Podemos atribuir o resultado e chamar somente um dos itens da lista')
