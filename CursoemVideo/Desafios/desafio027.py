@@ -5,6 +5,6 @@
 # Primeiro nome: Ana
 # Último nome: Souza
 
-nome = input('\nDigite seu nome completo: ')
+nome = str(input('\nDigite seu nome completo: ')).strip()
 print('Primeiro nome: {}'.format(nome.split()[0]))
 print('Último nome: {}'.format(nome.split()[len(nome.split())-1]))
