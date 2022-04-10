@@ -18,4 +18,3 @@ else:
     print(f'\nA solicitação de emprestimo de R$ {valor_casa:.2f} foi \033[1:32mAPROVADO\033[m.'
           f'\nO solicitante tem o limite de R$ {limite:.2f} '
           f'e o valor da parcela é de R$ {parcela:.2f} por mês durante {anos} ano(s).')
-
