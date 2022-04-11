@@ -23,7 +23,7 @@ opc = 'um formato indefido'
 if opcao == 1:
     # Modo 1: Utilizando um ponto especifico, iniciando do final para o começo, ou seja, os ultimos 8 digitos.
     # Serve para binário por causa da quantidade exata de dígitos
-    res = bin(num)[-8:]
+    res = bin(num)[2:]
     opc = 'BINÁRIO'
 elif opcao == 2:
     # Modo 2: Desconsidera os primeiros (2) digitos e retorna todos os posteriores.

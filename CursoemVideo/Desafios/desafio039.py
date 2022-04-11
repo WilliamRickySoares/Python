@@ -1,3 +1,6 @@
+
+idade = int(input('Digite a idade do jovem: '))
+alistamento = int(18)
 """
 Desafio 039
 Faça um programa que leia o ano de nascimento de uma jovem e informe,
@@ -8,9 +11,6 @@ de acordo com a sua idade:
 
 Seu programa também deverá mostrar o tempo que falta ou o que passou do prazo.
 """
-
-idade = int(input('Digite a idade do jovem: '))
-alistamento = int(18)
 
 if idade > alistamento:
     print(f'A idade de alistamento é de {alistamento} e já passou {idade - alistamento} ano(s) da idade de se alistar')
