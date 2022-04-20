@@ -13,18 +13,18 @@ print('\n\033[1mCLACULADO DE IMC - ÍNDICIE DE MASSA CORPORAL\033[m')
 
 peso = float(input('\nDigite o seu peso: '))
 altura = float(input('Digite a sua altura: '))
-imc = peso / altura
+imc = peso / (altura * altura)  # forma alternativa: peso / (altura ** 2)
 status = str('status')
 
 if imc <= 18.5:
     status = str('Abaixo do peso')
-elif imc < 25:
+elif 18.5 < imc <= 25:
     status = str('Peso ideal')
-elif imc < 30:
+elif 25 < imc <= 30:
     status = str('Sobrepeso')
-elif imc < 40:
+elif 30 < imc <= 40:
     status = str('Obseidade')
-elif imc > 40:
+elif imc >= 40:
     status = str('Obseidade mórbida')
 
-print(f'\nO seu imc é de {imc:.2f} com o status \033[1m{status}\033[m')
+print(f'\nO seu imc é de {imc:.1f} com o status \033[1m{status}\033[m')
