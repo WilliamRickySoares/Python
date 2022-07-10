@@ -4,6 +4,7 @@ Crie um programa que faça o computador jogar "Jokenpò" com você.
 
 TODO: Alterar para o jogo do Sheldon - Big Bang Theory
 """
+
 from random import choice
 from time import sleep
 
