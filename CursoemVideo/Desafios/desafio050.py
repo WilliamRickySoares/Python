@@ -6,10 +6,12 @@ Se o valor digitado for ímpar, desconsidere-o.
 """
 
 r = 0
+cont = 0
+
 for c in range(0, 6):
     n = int(input('Digite um número: '))
     if (n % 2) == 0:
         r += n
+        cont += 1
 
-print(f'Total da soma \033[1:32m{r}\033[m.')
-
+print(f'Total da soma dos {cont} números pares é \033[1:32m{r}\033[m.')
