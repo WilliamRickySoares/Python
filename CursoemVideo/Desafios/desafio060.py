@@ -9,32 +9,48 @@ Exemplo:
 n = int(input('Escolha um número para fatorar: '))
 
 print(f'\033[1m{n}\033[m! =', end=' ')
-factorial = int(1)
+f = int(1)
 c = str('')
 
+# Utilizando for (fiz antes do Guanabara solicitar :) rsrs )
 if n == 0:
-    factorial = 1
+    f = 1
 for i in range(n, 0, -1):
     if i == n:
-        factorial = n * 1
+        f = n * 1
     else:
-        factorial = i * factorial
+        f = i * f  # f *= i
     if i == 1:
         print(str(i), end=' = ')
     else:
         print(str(i), end=' x ')
-print(f'\033[1:33m{factorial}\033[m.')
+print(f'\033[1:33m{f}\033[m.')
 
+# Utilizando while
 e = n
 print(f'\n\033[1m{n}\033[m! =', end=' ')
 while e != 0:
     if n == e:
-        factorial = e * 1
+        f = e * 1
     else:
-        factorial = e * factorial
-    if e == 1:
-        print(str(e), end=' = ')
-    else:
-        print(str(e), end=' x ')
+        f = e * f  # f *= e
+    # if em uma única linha
+    print(str(e), 'x ' if e > 1 else '= ', end='')
     e += -1
-print(f'\033[1:33m{factorial}\033[m.')
+print(f'\033[1:33m{f}\033[m.')
+
+# utilzando lib (math)
+from math import factorial
+print(f'\nO fatorial de {n} é \033[1:33m{factorial(n)}\033[m.')
+
+# Modelo do Curso em Video - Guanabara
+n = int(input('\nDigite um número para calcular seu Fatorial: '))
+c = n
+f = 1
+print('Calculando {}! = '.format(n), end='')
+while c > 0:
+    print('{}'.format(c), end='')
+    print(' x ' if c > 1 else ' = ', end='')
+    f *= c
+    c -= 1
+print('{}'.format(f))

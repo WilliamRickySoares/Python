@@ -5,9 +5,14 @@ mas só aceite os valores 'M' ou 'F'.
 Caso esteja errado, peça a digitação novamente até ter um valor correto
 '''
 
+# Utiliza string para validar o 'while'
+# s = 'S'
+# while s not in 'MF':
+
+# Utilizando booleano para validar o 'while'
 ok = True
 while ok:
-    s = str(input(f'\nDigite seu sexo [M/F]: ')).upper()
+    s = str(input(f'\nDigite seu sexo [M/F]: ')).upper().strip()[0]
     if s == 'M' or s == 'F':
         print(f'Obrigado, vc escolheu a opção \033[1:32m{s}\033[m.')
         ok = False
