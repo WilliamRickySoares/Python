@@ -7,7 +7,7 @@ foram digitados e qual foi a soma entre eles
 (desconsiderando o flag)
 """)
 
-n = c = r = 0
+c = r = 0
 n = int(input('Digite um número: '))
 while n != 999:
     r += n
