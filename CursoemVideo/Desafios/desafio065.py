@@ -7,23 +7,24 @@ continuar a digitação valores.
 """
       )
 
-i = True
-soma = cont = 0
-lista = []
-
-while i:
+soma = cont = maior = menor = 0
+r = 'S'
+while r in 'Ss':
     n = int(input('Digite valores inteiros: '))
     cont += 1
     soma += n
-    lista.append(n)
-    q = str(input(f'Deseja inserir mais valores? [S/N] ')).upper().strip()[0]
-    if q in 'Nn':
-        i = False
+    if cont == 1:
+        maior = menor = n
+    else:
+        if n > maior:
+            maior = n
+        if n < menor:
+            menor = n
+    r = str(input(f'Deseja inserir mais valores? [S/N] ')).upper().strip()[0]
 
-m = sorted(lista)
 media = soma / cont
-print(f'\nO maior valor da lista é o {m[-1]}')
-print(f'O menor valor da lista é o {m[0]}')
+print(f'\nO maior valor da lista é o {maior}.')
+print(f'O menor valor da lista é o {menor}.')
 print(f'Foram inseridos {cont} números.')
 print(f'A soma dos números é de {soma}.')
 print(f'A média total é de {media:.2f}.')
