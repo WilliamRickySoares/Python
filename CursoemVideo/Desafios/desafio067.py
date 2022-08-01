@@ -8,12 +8,12 @@ O programa será interrompido quando o número solicitado for negativo.
 t = 0
 while True:
     n = int(input('\nQual o número da tabuada: '))
-    if n <= 0:
+    if n < 0:
         break
     while True:
         t += 1
         m = n * t
-        print(f'{t} * {n} = {m}')
+        print(f'{t} x {n} = {m}')
         if t >= 10:
             t = 0
             break
