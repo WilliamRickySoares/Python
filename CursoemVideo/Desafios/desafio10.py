@@ -1,6 +1,6 @@
 # Desafio 10
 # Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos Dolares ela pode comprar
-# Considere US$ 1,00 = R$ 3,27
+# Considere US$ 1,00 = R$ 5,27
 
 print('# Desafio 10'
       '\n# Crie um programa que leia quanto dinheiro uma pessoa tem na carteira '

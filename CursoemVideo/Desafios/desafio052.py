@@ -9,7 +9,7 @@ r = 0
 t = 0
 div = []
 
-for c in range(1, n-1):
+for c in range(2, n-1):
     r = n % c
     if r == 0:
         div.append(c)

@@ -26,7 +26,7 @@ bot = int(choice(op))
 bot_nome = str(lista[bot - 1])
 p1_nome = str(lista[p1 - 1])
 
-sleep(0.5)
+sleep(0.35)
 print('\nJo')
 sleep(1)
 print('Ken')

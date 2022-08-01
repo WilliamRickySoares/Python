@@ -13,6 +13,7 @@ print('==' * 15)
 print('   Vamos jogar PAR ou IMPAR')
 print('==' * 15)
 c = 0
+escolhido = ''
 
 while True:
     # Usuário escolhe as opções
@@ -23,7 +24,7 @@ while True:
         e = str(input('Escolha entre Par ou Impar [P/I]: ')).strip().upper()[0]
         if e in 'Pp':
             escolhido = 'par'
-        elif e in 'In':
+        elif e in 'Ii':
             escolhido = 'impar'
         break
 
@@ -47,7 +48,8 @@ while True:
         # print(d)
         # revanche = str(input('\nDeseja jogar novamente? ')).strip().upper()[0]
         # if revanche in 'NAO' or revanche in 'NÃO':
-    print(f'Você escolheu {escolhido} e o resultado foi {soma} ({tipo}), você \033[1:33m{d}\033[m!')
+    print(f'Você escolheu {escolhido}, o computador jogou {n}'
+          f' e o resultado foi {soma} ({tipo}), você \033[1:33m{d}\033[m!')
 
     # Se o jogador perdeu, encerrar!
     if not ganhador:
