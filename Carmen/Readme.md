@@ -19,7 +19,7 @@ Os supeitos serão elaborados conforme caracteristicas de cada região, então o
 
 COMO PARECE:
 
-A intensão é fazer de uma forma simples, talvez de utilizando um estilo 8 bit (como o original).
+A intenção é fazer de uma forma simples, talvez de utilizando um estilo 8 bit (como o original).
 
 TECNOLOGIA:
 
