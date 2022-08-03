@@ -30,7 +30,9 @@ while True:
     # Enunciado
     cont += 1
 
-    e = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
+    e = ' '
+    while e not in 'SsNn':
+        e = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
     if e in 'Nn':
         break
 
@@ -38,4 +40,4 @@ print(f'''
     Dentre os {cont} produtos:
     (a) o valor total da compra foi de R${soma:.2f} 
     (b) Há {caro} produtos com valor maior que R$ 1000,00 
-    (c) O produto mais barato é o {barato} que custa R${menor:.2f}''')
+    (c) O produto mais barato é o \033[1:33m{barato}\033[m que custa R${menor:.2f}''')

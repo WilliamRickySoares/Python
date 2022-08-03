@@ -8,15 +8,16 @@ b) Quantos homens foram cadastrados.
 c) Quantas mulheres tem menos de 20 anos.
 """)
 
-cont = sexo = ''
 total = maior = homens = mulher = 0
 
 while True:
+    continuar = sexo = ' '
     idade = int(input('\nDigite a idade: '))
-    sexo = str(input('Digite o sexo [F/M]: ')).strip().lower()[0]
+    while sexo not in 'FfMm':
+        sexo = str(input('Digite o sexo [F/M]: ')).strip().lower()[0]
     total += 1
     # a
-    if idade > 18:
+    if idade >= 18:
         maior += 1
     # b
     if sexo in 'Mm':
@@ -24,12 +25,9 @@ while True:
     # c
     if idade < 20 and sexo in 'Ff':
         mulher += 1
-    cont = str(input('Deseja continuar [S/N]? ')).lower().strip()[0]
-    if cont in 'Nn':
+    while continuar not in 'NnSs':
+        continuar = str(input('Deseja continuar [S/N]? ')).lower().strip()[0]
+    if continuar in 'Nn':
         break
-print(f'Foram cadastrados um total de {total} pessoa(s), {maior} tem mais de 18 anos, '
+print(f'\nForam cadastrados um total de {total} pessoa(s), {maior} tem mais de 18 anos, '
       f'{homens} são homem(ens) e há {mulher} mulher(es) com menos de 20 anos.')
-
-
-
-
