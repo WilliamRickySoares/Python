@@ -31,6 +31,7 @@ print(lanche[0])  # Hamburquer, o primeiro
 print(lanche[-2])  # Pizza, o penulitmo ou o segundo da direita pra esquerda
 print(lanche[-2:])  # Da Pizza até o final
 
+
 for comida in lanche:
     # print(comida)
     print(f'Eu comi {comida}')
