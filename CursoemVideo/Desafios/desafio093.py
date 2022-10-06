@@ -4,23 +4,23 @@ quantas partidas ele jogou. Depois vai ler a quantidade de gols feitos em cada p
 guardado em um dicionário, incluíndo o total de gols feitos durante o campeonato.
 """
 
-campeonato = dict()
+jogadores = dict()
 gol_partidas = list()
 
-campeonato['nome_jogador'] = str(input("Digite o nome do jogador: ")).strip().capitalize()
-campeonato['qtd_partidas'] = int(input(f"Quantas partidas {campeonato['nome_jogador']} participou: "))
+jogadores['nome_jogador'] = str(input("Digite o nome do jogador: ")).strip().capitalize()
+jogadores['qtd_partidas'] = int(input(f"Quantas partidas {jogadores['nome_jogador']} participou: "))
 
 print("")
-for i in range(0, campeonato['qtd_partidas']):
-    gol_partidas.append(int(input(f"Gols do {campeonato['nome_jogador']} na {i + 1}º partida: ")))
-campeonato['gols_campeonato'] = gol_partidas
+for i in range(0, jogadores['qtd_partidas']):
+    gol_partidas.append(int(input(f"Gols do {jogadores['nome_jogador']} na {i + 1}º partida: ")))
+jogadores['gols_campeonato'] = gol_partidas[:]
 
-campeonato['total_gols'] = 0
-for g in campeonato['gols_campeonato']:
-    campeonato['total_gols'] += g
+jogadores['total_gols'] = 0
+for g in jogadores['gols_campeonato']:
+    jogadores['total_gols'] += g
 
 
-print(f"\nO jogador {campeonato['nome_jogador']} participou de {campeonato['qtd_partidas']} partidas e"
-      f" realizou {campeonato['total_gols']} gols no campeonato.")
+print(f"\nO jogador {jogadores['nome_jogador']} participou de {jogadores['qtd_partidas']} partidas e"
+      f" realizou {jogadores['total_gols']} gols no campeonato.")
 
-print(campeonato)
+print(jogadores)

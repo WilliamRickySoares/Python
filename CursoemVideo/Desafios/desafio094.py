@@ -7,22 +7,30 @@ c) Uma lista com todas as mulheres
 d) Uma lista com todas as pessoas com idade acima da média
 """
 
-lista = dict()
-pessoas = list()
+dic = {'qtd_pessoas': 0, 'soma_idade': 0, 'media_idade': 0}
+pessoa = dict()
+lista = list()
 mulheres = []
 maiores = []
 
 while True:
-    lista['nome'] = str(input("Digite o nome da pessoa: ")).strip().capitalize()
-    lista['sexo'] = str(input("Digite o sexo da pessoa [M/F]: ")).strip().lower()[0]
-    lista['idade'] = int(input("Digite a idade da pessoa: "))
-    pessoas.append(lista.copy())
-    # lista['qtd_pessoas'] += 1
-    # lista['soma_idade'] += lista['idade']
-    # lista['media_idade'] = lista['soma_idade'] / lista['qtd_pessoas']
-    # if lista['sexo'] in "Ff":
-    #     mulheres.append(lista['nome'])
-
+    pessoa['nome'] = str(input("Digite o nome da pessoa: ")).strip().capitalize()
+    while True:
+        pessoa['sexo'] = str(input("Digite o sexo da pessoa [M/F]: ")).strip().upper()[0]
+        if pessoa['sexo'] in "FfMm":
+            break
+    pessoa['idade'] = int(input("Digite a idade da pessoa: "))
+    lista.append(pessoa.copy())
+    dic['pessoas'] = lista
+    # a) Quantas pessoas foram cadastradas
+    dic['qtd_pessoas'] += 1
+    # b) A média de idade do grupo
+    dic['soma_idade'] += pessoa['idade']
+    dic['media_idade'] = dic['soma_idade'] / dic['qtd_pessoas']
+    # c) Uma lista com todas as mulheres
+    if pessoa['sexo'] in "Ff":
+        mulheres.append(pessoa['nome'])
+    dic['mulheres'] = mulheres
     while True:
         q = str(input("Quer continuar? [S/N] ")).strip().lower()[0]
         if q in "SsNn":
@@ -31,5 +39,19 @@ while True:
         break
     print("")
 
-print(lista)
-# print(lista['pessoas'])
+# d) Uma lista com todas as pessoas com idade acima da média
+for p in lista:
+    if p['idade'] >= dic['media_idade']:
+        maiores.append(p['nome'])
+dic['maiores'] = maiores
+
+print()
+print(dic)
+print()
+print(f"Foram cadastradas {dic['qtd_pessoas']} pessoas.")
+print(f"A média de idade é de {dic['media_idade']}. Conforme {dic['soma_idade']} / {dic['qtd_pessoas']}.")
+print(f"As mulheres cadastradas foram ", end = '')
+for m in dic['mulheres']:
+    print(m, end = ';')
+print(f"As pessoas acima da média foram {dic['maiores']}.")
+
