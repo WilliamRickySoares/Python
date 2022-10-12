@@ -3,7 +3,7 @@ Faça um programa que leia e média de um aluno, guardando tambem a situação e
 No final, mostre o conteúdo da estrutura na tela.
 """
 
-nome = str(input('Digite o nome do aluno: '))
+nome = str(input('Digite o nome do aluno: ')).strip().capitalize()
 media = float(input(f'Digte a média do {nome}: '))
 
 boletim = dict()
