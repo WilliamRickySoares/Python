@@ -32,4 +32,5 @@ def maiorLista():
     lin()
 
 
+maiorLista()
 
