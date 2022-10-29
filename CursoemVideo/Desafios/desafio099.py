@@ -2,15 +2,15 @@
 Faça um programa que tenha uma função chamada maior(), que receba vários parametros com valores inteiros.
 O seu programa tem que analisar todos os valores e dizer qual deles é o maior.
 """
+from random import randint
+from time import sleep
 
 
 def lin():
-    print("-" * 93)
+    print("-" * 90)
 
 
 def maiorLista():
-    from random import randint
-    from time import sleep
     v = randint(1, 5)
     for c in range(v):
         n = randint(2, 10)
@@ -32,5 +32,19 @@ def maiorLista():
     lin()
 
 
-maiorLista()
+def maior(*n):
+    num_maior = count = 0
+    lin()
+    for i in n:
+        count += 1
+        if i > num_maior:
+            num_maior = i
+    print(f"Foram digitados {count} números: {n}.")
+    print(f"O maior número é {num_maior}.")
+    lin()
+    print()
 
+
+# maiorLista()
+maior(1, 2, 3, 20, 6, 4, 15, -52, 20, 17, 18)
+maior(15, 12, 17, 18, 7, 25, -66, 4, 8, 9, 12, 5)
