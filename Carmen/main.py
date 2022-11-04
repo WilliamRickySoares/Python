@@ -1,29 +1,43 @@
-# POC para o jogo "Onde no Brasil está Carmen Sandiego?"
+# POC para o jogo 'Onde no Brasil está Carmen Sandiego?'
 # import sys
 import random
 
-
-todas_cidades = ['SAO', 'MAO', 'SPA', 'FOR', 'VIT', 'ZPT', 'XPTO', 'ZZZ', 'AAA', 'BBB']
-cidades_vistas = []
-inicio = 'Segunda-feira 07:000'
-
+inicio = 'Segunda-feira 07:00'
 
 # sortei cidade
+todos_estados = ['AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB',
+                 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO']
+trilha = [
+    {'Cidade_Correta': True, 'Cidade': '', 'Estado': '',
+     'Local1': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''},
+     'Local2': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''},
+     'Local3': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''}},
+    {'Cidade_Correta': False, 'Cidade': '', 'Estado': '',
+     'Local1': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''},
+     'Local2': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''},
+     'Local3': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''}},
+    {'Cidade_Correta': False, 'Cidade': '', 'Estado': '',
+     'Local1': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''},
+     'Local2': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''},
+     'Local3': {'Nome_Local': '', 'Nome_Pessoa': '', 'Fala': ''}}
+]
+
+
 def sorteia_cidade():
-    cidade_escolhida = str(random.sample(todas_cidades, 1))
-    characters = "']["
-    for i in range(len(characters)):
-        cidade_escolhida = str(cidade_escolhida.replace(characters[i], ""))
-    todas_cidades.remove(cidade_escolhida)
-    cidades_vistas.append(cidade_escolhida)
-    print(cidade_escolhida)
+    trilha_ladrao = []
+    for a in range(0, 5):
+        cidade_sorteada = str(random.sample(todos_estados, 1))
+        todos_estados.remove(cidade_sorteada[2:4])
+        trilha_ladrao.append(cidade_sorteada[2:4])
+    print(trilha_ladrao)
+    print(todos_estados)
 
 
 sorteia_cidade()
 
 '''
 player = input('Agente no teclaro, por favor identifique-se: ')
-print('Bem vindo {}. '.format(player), end='')
+print(f'Bem vindo {}. '.format(player), end='')
 continuar = input('Você foi identificado como agente da agência, deseja iniciar uma nova missão? [S/N]: ')
 
 if continuar == 'N':
