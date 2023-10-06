@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c319d2e-72b9-4644-aa0c-bf39a996cb6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Enforcado/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/Croqui.pdn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/botao-fechar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/forbbiden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/marca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/music-player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/neumorphism-button-design-set-vector-illustration-square-geometric-shape-with-rounded-edges-white_733727-73.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/restart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Enforcado/img/speaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRG3/.idea/HRG3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/LeituraPdf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeituraGepeto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ocr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/5 - Guia de Instalação - Servidor OLAP Windows 3.15.1 - PT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf/ARQUIVO.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoemVideo/.idea/CursoemVideo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/.idea/CursoemVideo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio102.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio102.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio103.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio103.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio104.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio104.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio105.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio105.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diversos/.idea/Diversos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diversos/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diversos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/.idea/Enforcado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/Enforcado.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/.idea/pythonProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/forca.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/forca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enforcado/old.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/WKapi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/album.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WKapi/valid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/SQL Server/SQL_Server.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OI95DM0feY9oxM1Sah1ZvyIFiY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.ocr">
+    <configuration name="LeituraGepeto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeituraPdf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeituraGepeto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LeituraPdf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ocr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeituraPdf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tesec" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeituraPdf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/tesec.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ocr" />
+        <item itemvalue="Python.LeituraGepeto" />
+        <item itemvalue="Python.tesec" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c319d2e-72b9-4644-aa0c-bf39a996cb6a" name="Changes" comment="" />
+      <created>1681237043311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681237043311</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
