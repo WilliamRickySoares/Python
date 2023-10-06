@@ -9,11 +9,7 @@ from datetime import datetime
 
 
 horario_inicio = datetime.now()
-# local_log = (f"c:/Des/log_infoplus/log_infoplus_{horario_inicio.year}{horario_inicio.month}{horario_inicio.day}_{horario_inicio.hour}{horario_inicio.minute}.txt")
-local_log = ("c:/Des/log_infoplus/log_infoplus.txt")
-
-logger.add = local_log
-print(local_log)
+logger.add = ("d:\Des\log_infoplus\log_infoplus.txt")
 
 # Documentação da API https://ajuda.wk.com.br/75/ws/index.htm#t=Apresentacao.htm
 
