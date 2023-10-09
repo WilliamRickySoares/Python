@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f5ac87-6317-4fc6-ba1f-ae4322898edf" name="Changes" comment="Diversos">
+    <list default="true" id="c9f5ac87-6317-4fc6-ba1f-ae4322898edf" name="Changes" comment="Adição das logs">
       <change beforePath="$PROJECT_DIR$/.idea/Middlware.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/InfoPlusConsolidada.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/InfoPlusConsolidada.py" afterDir="false" />
@@ -308,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696553029585</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adição das logs">
+      <option name="closed" value="true" />
+      <created>1696890584070</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696890584070</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -330,6 +338,7 @@
     <MESSAGE value="Revert &quot;Diversos&quot;&#10;&#10;This reverts commit b99d2844" />
     <MESSAGE value="Ajustes" />
     <MESSAGE value="Diversos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diversos" />
+    <MESSAGE value="Adição das logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição das logs" />
   </component>
 </project>
