@@ -1,6 +1,7 @@
 import requests
 import credential
 import time
+from loguru import logger
 
 def validar_login():
     servidor_webservice = "http://totalmaxserv.ddns.net:9091"
@@ -18,16 +19,16 @@ def validar_login():
     }
 
     while True:
-        retorno = requests.post(URL_Validacao, json = Validar_Login)
-        resposta_webservive = retorno.reason
-        print(resposta_webservive)
-        if resposta_webservive == "OK":
+        try:
+            logger.info("Testando a conexão à webservice")
+            retorno = requests.post(URL_Validacao, json = Validar_Login)
+            resposta_webservive = retorno.reason
+            if resposta_webservive == "OK":
+                logger.info(f"Conexão ao webservice {resposta_webservive}")
+            return resposta_webservive
             break
-        else:
-            print(soneca)
+        except:
+            logger.warning("Falha ao testar a conexão à webservice")
+            logger.info(f"Esperar por {soneca}")
             time.sleep(soneca)
             soneca += 30
-    return resposta_webservive
-            
-
-

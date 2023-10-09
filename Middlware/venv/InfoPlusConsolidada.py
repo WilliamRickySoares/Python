@@ -1,15 +1,17 @@
-import banco_middleware as bd
+import Banco_middleware as bd
 import WebserviceWK as wk
 import credential
 import time
 import requests
 import xmltodict
-from loguru import logger
 from datetime import datetime
 
+from loguru import logger
 
 horario_inicio = datetime.now()
-logger.add = ("d:\Des\log_infoplus\log_infoplus.txt")
+agora = (f"c:/Des/middleware/LogInfoPlus_{horario_inicio.date()}_{horario_inicio.hour}{horario_inicio.minute}{horario_inicio.second}.log")
+logger.add(agora,format="{time} - {level} - {message}")
+logger.info(agora)
 
 # Documentação da API https://ajuda.wk.com.br/75/ws/index.htm#t=Apresentacao.htm
 
@@ -17,7 +19,7 @@ logger.add = ("d:\Des\log_infoplus\log_infoplus.txt")
 banco = bd.conectar()
 
 # Variaveis
-teste = True  # Se True utiliza somente 1 registro da lista, Se False utiliza da fonte de dados
+teste = False  # Se True utiliza somente 1 registro da lista, Se False utiliza da fonte de dados
 total = 1
 interface_webservice = "http://totalmaxserv.ddns.net:9091/RadarWebWebServices/Areas/Empresarial/Empresarial.svc/json/"
 

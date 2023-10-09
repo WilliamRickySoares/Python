@@ -1,6 +1,8 @@
 import pyodbc
 import time
 import credential
+from loguru import logger
+
 
 def conectar():
     driver = "SQL Server"
@@ -12,17 +14,18 @@ def conectar():
 
     while True:
         try:
-            print("Conectando ao banco...")
+            logger.info("Conectando ao banco...")
             conexao = pyodbc.connect(dados_conexao)
             cursor = conexao.cursor()
-            print("Conexão com o banco realizada!\n")
+            logger.info("Conexão com o banco realizada!\n")
             break
         except pyodbc.OperationalError:
-            print("Error conexão")
-            print("Tentando novamente...")
+            logger.warning("Error conexão")
+            logger.info("Tentando novamente...")
             time.sleep(2)
-            print(f"Nova Tentativa {tentativas_realizadas}")
+            logger.warning(f"Nova Tentativa {tentativas_realizadas}")
             tentativas_realizadas += 1
             if tentativas_realizadas == quantidade_tentativas:
+                logger.error("Interrompendo a tentativa de conexão ao banco")
                 break
     return cursor
