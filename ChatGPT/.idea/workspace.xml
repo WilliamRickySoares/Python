@@ -1,72 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="830887ed-72b1-4602-9030-fed6ace8f5b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Enforcado/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/Croqui.pdn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/botao-fechar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/forbbiden.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/gear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/marca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/music-player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/neumorphism-button-design-set-vector-illustration-square-geometric-shape-with-rounded-edges-white_733727-73.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/restart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Enforcado/img/speaker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HRG3/.idea/HRG3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/.idea/LeituraPdf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/LeituraGepeto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/ocr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/pdf/5 - Guia de Instalação - Servidor OLAP Windows 3.15.1 - PT.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeituraPdf/pdf/ARQUIVO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POC Atendimento/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POC Atendimento/.idea/POC Atendimento.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POC Atendimento/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POC Atendimento/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POC Atendimento/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POC Atendimento/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POC Atendimento/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CursoemVideo/.idea/CursoemVideo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/.idea/CursoemVideo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio102.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio102.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio103.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio103.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio104.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio104.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio105.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoemVideo/Desafios/desafio105.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Diversos/.idea/Diversos.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Diversos/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Diversos/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/.idea/Enforcado.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/Enforcado.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/.idea/pythonProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/forca.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/forca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/game.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Enforcado/old.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/WKapi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/album.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WKapi/valid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enforcado/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pythonProject/SQL Server/SQL_Server.py" beforeDir="false" />
-    </list>
+    <list default="true" id="830887ed-72b1-4602-9030-fed6ace8f5b0" name="Changes" comment="Ajustes do .gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2SaJueAGX58h2dxWuBEkuWFiTG0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -89,8 +27,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Meu Python/ChatGPT"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,6 +44,27 @@
       <option name="presentableId" value="Default" />
       <updated>1689378981510</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ajustes do .gitignore">
+      <option name="closed" value="true" />
+      <created>1697845935480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697845935481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajustes do .gitignore">
+      <option name="closed" value="true" />
+      <created>1697846031880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697846031880</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajustes do .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes do .gitignore" />
   </component>
 </project>
