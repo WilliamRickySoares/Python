@@ -7,3 +7,12 @@
 /pythonProject
 /.idea
 /.vscode
+
+#API
+API/.idea
+API/Testes/.idea
+API/Insert_Webservice/.idea
+API/Gravação/.idea
+
+#PythonBrasil
+PythonBrasil/.idea
