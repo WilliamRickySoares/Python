@@ -8,6 +8,18 @@
 /.idea
 /.vscode
 
+#Enforcado
+Enforcado/.idea
+
+#Diversos
+Diversos/.idea
+
+#ChatBot
+ChatBot/.idea
+
+#ChatGPT
+ChatGPT/.idea
+
 #API
 API/.idea
 API/Testes/.idea
@@ -17,7 +29,14 @@ API/Gravação/.idea
 #PythonBrasil
 PythonBrasil/.idea
 
+#WKapi
+WKapi/.idea
 
+#Middlware
+Middlware/.idea
+
+#Hastag
+Hastag/.idea
 
 */.idea
 */.gitignore
