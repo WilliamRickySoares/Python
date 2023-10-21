@@ -16,3 +16,9 @@ API/Gravação/.idea
 
 #PythonBrasil
 PythonBrasil/.idea
+
+
+
+*/.idea
+*/.gitignore
+*/.vscode
