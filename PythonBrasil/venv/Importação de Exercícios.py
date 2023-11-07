@@ -1,11 +1,7 @@
 from parsel import Selector
 from httpx import get
+import os.path
 
-saltar_linha = ['</li>', '   ', '</pre>', '</p>']
-
-especiais = [('<strong>', 'negrito'),
-             ('<em>', 'italico'),
-             ('"u">', 'italico')]
 
 
 def Substituir(texto_original):
@@ -45,28 +41,36 @@ for link_pagina in nome_exercicios:
     sel_sub = Selector(text = conteudo.decode())
     lista_questao = sel_sub.xpath('//li[(@class="gap")]').getall()
     for questao in lista_questao:
-
         numero_arquivo += 1
-        nome_arquivo = f'{link_pagina}{numero_arquivo:02}.py'
-        titulo = (f'# {numero_arquivo} ')
-        arquivo = open(nome_arquivo, 'x')
-        arquivo.writelines(f'## {titulo_pagina} ##')
-        arquivo.writelines(f'\n# {link_pagina} - {titulo}')
-
-        questao_ajustada = Substituir(questao)
-        linha_quebrada = questao_ajustada.split('  ')
-        for frase in linha_quebrada:
-            if len(frase) != 0:
-                print('# ', end = '')
-                resultado = frase.strip()
-                print(resultado)
-                arquivo.writelines(f"\n# {resultado}")
-        arquivo.close()
+        nome_arquivo = f'Exercício{numero_arquivo:02}.py'
+        path = f'{link_pagina}/{nome_arquivo}'
+        if os.path.isdir(link_pagina):
+            pass
+        else:
+            os.mkdir(link_pagina)
+        try:
+            arquivo = open(path, 'x', encoding = "utf-8")
+            titulo = (f'# {numero_arquivo} ')
+            arquivo.writelines(f'## {titulo_pagina} ##')
+            title = link_pagina.replace("Exercicios", "")
+            arquivo.writelines(f'\n# Exercício de {title} {titulo}')
+            questao_ajustada = Substituir(questao)
+            linha_quebrada = questao_ajustada.split('  ')
+            for frase in linha_quebrada:
+                if len(frase) != 0:
+                    resultado = frase.strip()
+                    arquivo.writelines(f"\n# {resultado}")
+                    arquivo.writelines(f"\n ")
+            arquivo.close()
+        except:
+            pass
 
 
 
 ## TODO: Validar se o site está respondendo antes de iniciar a leitura e preenchimento
-
-
-
-
+# saltar_linha = ['</li>', '   ', '</pre>', '</p>']
+#
+# especiais = [('<strong>', 'negrito'),
+#              ('<em>', 'italico'),
+#              ('"u">', 'italico')]
+# print(f'caminho_arquivo = {caminho_arquivo}')
