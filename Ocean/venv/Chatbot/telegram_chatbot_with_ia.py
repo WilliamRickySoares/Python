@@ -151,7 +151,7 @@ while not end:
 
 # import telebot
 #
-# API_KEY = '6969456941:AAG47E_2sXdYrQun9Bym3SR0K5O1iNBfuCM'
+# API_KEY = ''
 # bot = telebot.TeleBot(API_KEY)
 
 # @bot.message_handler(func=lambda message: True)
