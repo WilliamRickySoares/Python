@@ -28,7 +28,7 @@ link_lista_exercicios = '/ListaDeExercicios'
 conteudo = get(link_base + link_lista_exercicios).content
 sel = Selector(text = conteudo.decode())
 
-titulo_pagina = sel.css('title::text').get() # Titulo
+titulo_pagina = sel.css('title::text').get()  # Titulo
 print(titulo_pagina)
 
 nome_exercicios = sel.css('ol').css('a::text').getall()

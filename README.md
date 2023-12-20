@@ -1,7 +1,7 @@
 # Python
 Estudos e testes no desenvolvimento de Python
 
-Projetos previstos e Material para portifolio:
+Projetos previstos e Material para o portifolio:
 @ Calculadora
 @ Photomath
 @ To-List
