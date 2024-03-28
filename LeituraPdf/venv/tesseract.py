@@ -22,22 +22,25 @@ if platform.system() == "Windows":
     path_to_poppler_exe = Path(r'C:\poppler-0.68.0\bin')
 
     # Put our output files in a sane place...
-    out_directory = Path(r"~\Desktop").expanduser()
+    out_directory = Path(r"~\Download").expanduser()
 else:
-    out_directory = Path("~\Desktop").expanduser()
+    out_directory = Path("~\Download").expanduser()
 
 # Path of the Input pdf
-PDF_file = Path(r"tutorial-example.pdf")
-print(PDF_file)
+PDF_file = Path(r"mapa3.pdf")
+print(f"Leitura do arquivo: {PDF_file}")
 
 # Store all the pages of the PDF in a variable
-print("Store all the pages of the PDF in a variable")
+print("Armazenando as páginas do PDF como variável em:")
 image_file_list = []
 
 file_out = "out_text.txt"
-os.remove(file_out)
-text_file = Path(file_out)
-print(text_file)
+try:
+    os.remove(file_out)
+    text_file = Path(file_out, encodings='UTF8')
+except:
+    text_file = Path(file_out, encodings='UTF8')
+print("Arquivo de destino: ", text_file)
 
 
 def main():
@@ -64,7 +67,7 @@ def main():
             # Create a file name to store the image
             filename = f"{tempdir}\page_{page_enumeration:03}.jpg"
             print("Create a file name to store the image")
-            print(filename)
+            print("Arquivo temporário ", filename)
 
             # Declaring filename for each page of PDF as JPG
             # For each page, filename will be:

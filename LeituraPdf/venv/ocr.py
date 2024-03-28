@@ -2,7 +2,7 @@
 import PyPDF2
 
 # creating a pdf file object
-pdfFileObj = open(r'D:\Meu Python\LeituraPdf\venv\cert.pdf', 'rb')
+pdfFileObj = open(r'D:\Meu Python\LeituraPdf\venv\mapa3.pdf', 'rb')
 
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfReader(pdfFileObj)

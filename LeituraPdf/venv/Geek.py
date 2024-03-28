@@ -1,7 +1,7 @@
 
 from PyPDF2 import PdfReader
 
-reader = PdfReader('D:\\Meu Python\\LeituraPdf\\venv\\check.pdf')
+reader = PdfReader('D:\\Meu Python\\LeituraPdf\\venv\\mapa3.pdf')
 page = reader.pages[0]
 # print(page.values())
 # print(page.extract_text())
