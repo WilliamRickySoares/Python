@@ -7,6 +7,9 @@ Projetos previstos e Material para o portifolio:
 @ To-List
 @ WMS
 @ GANTT
+@ JOGOS
+@ BI
+@ IA
 
 Obrigado pela visita
 
