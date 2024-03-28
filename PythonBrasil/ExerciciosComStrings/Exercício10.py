@@ -1,7 +1,9 @@
 ## ListaDeExercicios - PythonBrasil ##
 # Exercício de ComStrings # 10 
 # Jogo de Forca. Desenvolva um jogo da forca. O programa terá uma lista de palavras
+ 
 # lidas de um arquivo texto e escolherá uma aleatoriamente. O jogador poderá errar 6 vezes antes de ser enforcado.
+ 
 # Digite uma letra: A
  -&gt; Você errou pela 1ª vez. Tente de novo!
  
@@ -13,3 +15,4 @@
  
  Digite uma letra: S
  -&gt; Você errou pela 2ª vez. Tente de novo!
+ 

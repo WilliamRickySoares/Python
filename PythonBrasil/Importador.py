@@ -3,7 +3,6 @@ from httpx import get
 import os.path
 
 
-
 def Substituir(texto_original):
     remover = ["class=", '"gap">', 'gab', "<li ", "<li>","</li>", "<ul>", "</ul>", '<p ', '</p>', "<span ", "</span>",
                '"anchor"', 'style="list-style-type:none">', '<ol', '</ol>', 'type="a">', 'type="i">', '"line862">', '"line891">', '<strong>',
