@@ -2,7 +2,7 @@
 import PyPDF2
 
 # creating a pdf file object
-pdfFileObj = open('mapa3.pdf', 'rb')
+pdfFileObj = open(r'/mapa3.pdf', 'rb')
 
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfReader(pdfFileObj)
@@ -18,3 +18,5 @@ print(pageObj.extract_text())
 
 # closing the pdf file object
 pdfFileObj.close()
+
+
